@@ -2,5 +2,5 @@ FROM wmbbn/hume:R2022_03_21
 
 ADD ./conf/hume-reader-config.json /extra/config.json
 
-ENTRYPOINT ["/usr/local/envs/hat_new/bin/python3"]
+ENTRYPOINT ["/usr/local/envs/py3-jni/bin/python3"]
 CMD ["/wm_rootfs/git/Hume/src/python/dart_integration/streaming_processing.py"]
