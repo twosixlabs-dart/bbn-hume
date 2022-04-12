@@ -6,5 +6,5 @@ docker-push-reader:
 	docker push $(IMAGE_PREFIX)/bbn-hume-reader:$(APP_VERSION)
 
 docker-push-oiad:
-	docker build -f Dockerfile-Reader -t $(IMAGE_PREFIX)/bbn-hume-oiad:$(APP_VERSION) .
+	docker build -f Dockerfile-OAID -t $(IMAGE_PREFIX)/bbn-hume-oiad:$(APP_VERSION) .
 	docker push $(IMAGE_PREFIX)/bbn-hume-oiad:$(APP_VERSION)
