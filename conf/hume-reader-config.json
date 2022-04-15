@@ -9,7 +9,7 @@
     "from": "dart.cdr.streaming.updates"
   },
   "CDR_retrieval": "http://cdr-retrieval:8090/dart/api/v1/cdrs",
-  "DART_upload": "http://readers-output:8080/dart/api/v1/readers/upload",
+  "DART_upload": "http://readers-output:8080/dart/api/v1/readers",
   "Ontology_retrieval": "http://ontology-registry:8084/dart/api/v1/ontologies",
   "DART_upload_labels": [
     "from_docker"
